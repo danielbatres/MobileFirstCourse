@@ -164,7 +164,7 @@ main {
 }
 
 .currency-table--date p {
-    width: 95%;
+    width: 225px;
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
@@ -173,7 +173,7 @@ main {
 }
 
 .commission-table--date p {
-    width: 95%;
+    width: 225px;
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
