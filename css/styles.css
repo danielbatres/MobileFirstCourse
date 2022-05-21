@@ -339,7 +339,7 @@ main {
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-.recommended {
+.info-card {
     position: absolute;
     width: 120px;
     height: 31px;
@@ -347,9 +347,20 @@ main {
     top: -15px;
     left: calc(50% - 60px);
     font-size: 1.2rem;
-    background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
+}
+
+.basic {
+    background-color: var(--secondary-blue);
+}
+
+.recommended {
+    background-color: var(--bitcoin-orange);
+}
+
+.limited {
+    background-color: var(--black);
 }
 
 .plan-card--title {
@@ -376,6 +387,31 @@ main {
 .plan-card--saving {
     font-size: 1.2rem;
     color: #757575;
+}
+
+.plan-card--cta {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan-card--cta span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/orange-right-arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
 }
 
 /**/
